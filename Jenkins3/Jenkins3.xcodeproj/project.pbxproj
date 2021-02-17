@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4B9F2D4425DA91E6008FC688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F2D4325DA91E6008FC688 /* AppDelegate.swift */; };
-		4B9F2D4625DA91E6008FC688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F2D4525DA91E6008FC688 /* SceneDelegate.swift */; };
 		4B9F2D4825DA91E6008FC688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F2D4725DA91E6008FC688 /* ViewController.swift */; };
 		4B9F2D4B25DA91E6008FC688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9F2D4925DA91E6008FC688 /* Main.storyboard */; };
 		4B9F2D4D25DA91E8008FC688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9F2D4C25DA91E8008FC688 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		4B9F2D4025DA91E6008FC688 /* Jenkins3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jenkins3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9F2D4325DA91E6008FC688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B9F2D4525DA91E6008FC688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4B9F2D4725DA91E6008FC688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B9F2D4A25DA91E6008FC688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B9F2D4C25DA91E8008FC688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				4B9F2D4325DA91E6008FC688 /* AppDelegate.swift */,
-				4B9F2D4525DA91E6008FC688 /* SceneDelegate.swift */,
 				4B9F2D4725DA91E6008FC688 /* ViewController.swift */,
 				4B9F2D4925DA91E6008FC688 /* Main.storyboard */,
 				4B9F2D4C25DA91E8008FC688 /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				4B9F2D4825DA91E6008FC688 /* ViewController.swift in Sources */,
 				4B9F2D4425DA91E6008FC688 /* AppDelegate.swift in Sources */,
-				4B9F2D4625DA91E6008FC688 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4S3JN5XFF;
 				INFOPLIST_FILE = Jenkins3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4S3JN5XFF;
 				INFOPLIST_FILE = Jenkins3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
