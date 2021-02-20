@@ -32,6 +32,9 @@ class ViewController: UIViewController {
         print("alli lilli pelli")
         
     }
+    func venki3(){
+        print("venki")
+    }
 
 }
 
