@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 var abc = 10
     var age = 12
+    var c = 8
     
     //added commens
     //ygfhghb
