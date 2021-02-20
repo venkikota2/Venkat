@@ -9,8 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-var abc = 10
+   var abc = 10
     var age = 12
+    var c = 8
     
     //added commens
     //ygfhghb
@@ -28,7 +29,11 @@ var abc = 10
         print("fsdfdsf")
         print("uifsdfhdsjkhdjk")
         print("sdgdfhfgjghj")
+        print("alli lilli pelli")
         
+    }
+    func venki3(){
+        print("venki")
     }
 
 }
