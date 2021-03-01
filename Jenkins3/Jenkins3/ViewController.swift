@@ -35,6 +35,9 @@ class ViewController: UIViewController {
     func venki3(){
         print("venki")
     }
+    func naming(){
+        
+    }
 
 }
 
